@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Careers & Apply | Global Home Health Care LLC</title>
+<title>Apply Now | Global Home Health Care LLC</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -27,60 +27,67 @@ a{text-decoration:none}
 .nav-cta:hover{background:var(--teal-d);transform:translateY(-1px)}
 .hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;margin-left:auto}
 .hamburger span{display:block;width:24px;height:2px;background:var(--teal);border-radius:2px}
-
 .page-hero{padding:140px 0 70px;background:linear-gradient(135deg,#F0FAF8 0%,#E8F5F2 100%);text-align:center;position:relative;overflow:hidden}
 .page-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(11,122,110,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(11,122,110,.04) 1px,transparent 1px);background-size:50px 50px}
 .page-hero .sec-tag{position:relative}
 .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,4vw,3.5rem);font-weight:900;color:var(--navy);margin:.5rem 0 .75rem;position:relative}
 .page-hero p{font-size:1.05rem;color:var(--ts);max-width:560px;margin:0 auto;position:relative}
 .grad-text{background:linear-gradient(135deg,var(--teal),var(--teal-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-
-.sec{padding:70px 0}
-.sec-alt{background:var(--off)}
-.container{max-width:1280px;margin:0 auto;padding:0 2rem}
+.sec{padding:60px 0}.sec-alt{background:var(--off)}
+.container{max-width:960px;margin:0 auto;padding:0 2rem}
+.container-wide{max-width:1280px;margin:0 auto;padding:0 2rem}
 .sec-tag{display:inline-block;background:rgba(11,122,110,.1);color:var(--teal-d);border:1px solid rgba(11,122,110,.15);border-radius:100px;padding:.35rem .9rem;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.75rem}
-.sec-hdr{text-align:center;margin-bottom:3rem}
+.sec-hdr{text-align:center;margin-bottom:2.5rem}
 .sec-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:900;color:var(--navy);line-height:1.2;margin-bottom:.5rem}
 .sec-title em{font-style:italic;background:linear-gradient(135deg,var(--teal),var(--teal-l));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-
-/* POSITIONS */
-.pos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:3rem}
-.pos-card{background:var(--off);border:2px solid transparent;border-radius:var(--r-md);padding:1.5rem;cursor:pointer;transition:all .25s;text-align:center}
+.pos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:2rem}
+.pos-card{background:var(--off);border:2px solid transparent;border-radius:var(--r-md);padding:1.4rem;cursor:pointer;transition:all .25s;text-align:center}
 .pos-card:hover,.pos-card.selected{border-color:var(--teal);background:rgba(11,122,110,.05)}
-.pos-ico{font-size:2.2rem;margin-bottom:.6rem}
-.pos-title{font-weight:700;color:var(--navy);font-size:.95rem}
-.pos-pay{font-size:.8rem;color:var(--teal);font-weight:600;margin-top:.3rem}
-
-/* FORM */
-.form-card{background:var(--white);border-radius:var(--r-lg);box-shadow:var(--sh-lg);padding:3rem;max-width:880px;margin:0 auto;border:1px solid rgba(11,122,110,.08)}
-.form-title{font-family:'Playfair Display',serif;font-size:1.75rem;font-weight:700;color:var(--navy);margin-bottom:.4rem}
-.form-sub{color:var(--ts);font-size:.9rem;margin-bottom:1.75rem;padding-bottom:1.75rem;border-bottom:1px solid var(--g100)}
-.fsec-title{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--teal-d);border-bottom:2px solid var(--teal);padding-bottom:.4rem;margin:2rem 0 1.1rem}
-.fg{margin-bottom:1.4rem}
-.frow{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
-label{display:block;font-size:.84rem;font-weight:600;color:#1C2E2B;margin-bottom:.4rem}
-label span{color:#e53e3e}
-input,select,textarea{width:100%;padding:.78rem 1rem;border:1.5px solid var(--g100);border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;font-size:.9rem;color:#1C2E2B;background:var(--off);transition:all .2s;outline:none}
+.pos-ico{font-size:2rem;margin-bottom:.5rem}.pos-title{font-weight:700;color:var(--navy);font-size:.92rem}.pos-pay{font-size:.78rem;color:var(--teal);font-weight:600;margin-top:.25rem}
+.form-card{background:var(--white);border-radius:var(--r-lg);box-shadow:var(--sh-lg);padding:2.5rem;border:1px solid rgba(11,122,110,.08)}
+.form-header{background:linear-gradient(135deg,var(--teal),var(--teal-d));color:#fff;border-radius:var(--r-md);padding:1.5rem 2rem;margin-bottom:2rem;text-align:center}
+.form-header h2{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:900;margin-bottom:.25rem}
+.form-header p{font-size:.85rem;opacity:.85}
+.fsec{background:var(--navy);color:#fff;padding:.6rem 1rem;border-radius:var(--r-sm);font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:2rem 0 1.25rem}
+.fg{margin-bottom:1.25rem}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
+.frow3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.1rem}
+.frow4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1rem}
+label{display:block;font-size:.82rem;font-weight:600;color:#1C2E2B;margin-bottom:.38rem}
+.req{color:#e53e3e}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=month],input[type=number],select,textarea{width:100%;padding:.72rem .9rem;border:1.5px solid var(--g100);border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;font-size:.88rem;color:#1C2E2B;background:var(--off);transition:all .2s;outline:none}
 input:focus,select:focus,textarea:focus{border-color:var(--teal);background:#fff;box-shadow:0 0 0 3px rgba(11,122,110,.1)}
-textarea{resize:vertical;min-height:110px}
-.chk-group{display:grid;grid-template-columns:repeat(2,1fr);gap:.45rem}
-.chk-item{display:flex;align-items:center;gap:.5rem;font-size:.88rem;cursor:pointer}
-.chk-item input[type=checkbox]{width:auto;margin:0;accent-color:var(--teal)}
-.progress{display:flex;gap:.5rem;margin-bottom:2rem}
-.pb{flex:1;height:4px;border-radius:4px;background:var(--g100);transition:background .4s}
-.pb.done{background:var(--teal)}
-.btn-sub{width:100%;padding:1rem;background:var(--teal);color:#fff;border:none;border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:all .3s;box-shadow:0 6px 25px rgba(11,122,110,.3);margin-top:1.5rem}
-.btn-sub:hover{background:var(--teal-d);transform:translateY(-2px);box-shadow:0 10px 35px rgba(11,122,110,.4)}
-.success-msg{display:none;background:#d4f0ed;border:1px solid var(--teal-l);border-radius:var(--r-md);padding:1.5rem;text-align:center;margin-top:1rem;color:var(--teal-d);font-weight:600;font-size:.95rem}
-
-.hire-ban{position:relative;overflow:hidden;padding:70px 0;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-s) 100%)}
+textarea{resize:vertical;min-height:80px}
+.chk-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem .6rem}
+.chk-item{display:flex;align-items:center;gap:.4rem;font-size:.82rem;cursor:pointer;padding:.25rem 0}
+.chk-item input{width:auto;margin:0;accent-color:var(--teal);flex-shrink:0}
+.radio-row{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-top:.3rem}
+.radio-item{display:flex;align-items:center;gap:.4rem;font-size:.88rem;cursor:pointer}
+.radio-item input{width:auto;margin:0;accent-color:var(--teal)}
+.yn-row{display:flex;align-items:flex-start;gap:1.5rem;padding:.75rem;background:var(--off);border-radius:var(--r-sm);border:1px solid rgba(11,122,110,.08)}
+.yn-q{flex:1;font-size:.88rem;font-weight:600;color:var(--navy);line-height:1.5}
+.yn-opts{display:flex;gap:1.2rem;flex-shrink:0;padding-top:.1rem}
+.emp-block{background:var(--off);border-radius:var(--r-md);padding:1.25rem;margin-bottom:1.25rem;border:1px solid rgba(11,122,110,.08)}
+.emp-lbl{font-weight:700;color:var(--teal-d);margin-bottom:1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.04em}
+.tbl-wrap{overflow-x:auto}
+.cert-tbl{width:100%;border-collapse:collapse;font-size:.85rem}
+.cert-tbl th{background:var(--off);padding:.6rem .8rem;text-align:left;font-weight:700;border:1px solid var(--g100);font-size:.78rem;color:var(--ts)}
+.cert-tbl td{padding:.5rem .6rem;border:1px solid var(--g100)}
+.cert-tbl td input{padding:.38rem .5rem;font-size:.82rem}
+.policy-box{background:var(--off);border:1px solid rgba(11,122,110,.12);border-radius:var(--r-sm);padding:1.1rem;margin-bottom:.85rem;font-size:.82rem;color:var(--ts);line-height:1.7;max-height:150px;overflow-y:auto}
+.policy-box h4{font-size:.88rem;font-weight:700;color:var(--navy);margin-bottom:.4rem}
+.sig-row{display:grid;grid-template-columns:2fr 1fr;gap:1.25rem;margin-top:1rem}
+.btn-sub{width:100%;padding:1.1rem;background:var(--teal);color:#fff;border:none;border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;font-size:1.05rem;font-weight:700;cursor:pointer;transition:all .3s;box-shadow:0 6px 25px rgba(11,122,110,.3);margin-top:1.5rem}
+.btn-sub:hover{background:var(--teal-d);transform:translateY(-2px)}
+.btn-sub:disabled{background:var(--teal-d);cursor:not-allowed;transform:none}
+.success-msg{display:none;background:#d4f0ed;border:1px solid var(--teal-l);border-radius:var(--r-md);padding:1.5rem;text-align:center;margin-top:1rem;color:var(--teal-d);font-weight:600;font-size:.95rem;line-height:1.6}
+.hire-ban{position:relative;overflow:hidden;padding:60px 0;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-s) 100%)}
 .hire-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(11,122,110,.15) 1px,transparent 1px),linear-gradient(90deg,rgba(11,122,110,.15) 1px,transparent 1px);background-size:40px 40px}
 .hire-inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:3rem}
-.hire-left h2{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:#fff;margin-bottom:.5rem}
-.hire-left p{color:rgba(255,255,255,.7);font-size:1rem;margin-bottom:1.25rem}
-.job-tags{display:flex;flex-wrap:wrap;gap:.6rem}
-.job-tag{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.9);padding:.35rem .85rem;border-radius:100px;font-size:.82rem;font-weight:600}
-
+.hire-left h2{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:#fff;margin-bottom:.4rem}
+.hire-left p{color:rgba(255,255,255,.7);font-size:.95rem}
+.job-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+.job-tag{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.9);padding:.32rem .8rem;border-radius:100px;font-size:.8rem;font-weight:600}
 .footer{background:var(--navy);color:rgba(255,255,255,.8);padding:60px 0 0}
 .foot-inner{display:grid;grid-template-columns:1fr 2fr;gap:4rem;margin-bottom:3rem}
 .foot-brand{display:flex;align-items:flex-start;gap:.75rem}
@@ -93,14 +100,15 @@ textarea{resize:vertical;min-height:110px}
 .foot-col a:hover{color:var(--teal-l)}
 .foot-bot{border-top:1px solid rgba(255,255,255,.08);padding:1.25rem 2rem;display:flex;justify-content:space-between;align-items:center;max-width:1280px;margin:0 auto;font-size:.8rem;color:rgba(255,255,255,.4)}
 .foot-bot a{color:var(--teal-l)}
-
+@media(max-width:900px){.chk-grid{grid-template-columns:repeat(3,1fr)}.frow4{grid-template-columns:1fr 1fr}.frow3{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){
   .nav-links{display:none}.nav-links.open{display:flex;flex-direction:column;position:fixed;top:70px;left:0;right:0;background:#fff;padding:1rem 2rem 2rem;z-index:999;box-shadow:var(--sh-md)}
   .hamburger{display:flex}.nav-cta{display:none}
   .pos-grid{grid-template-columns:1fr 1fr}
-  .frow{grid-template-columns:1fr}
-  .form-card{padding:1.5rem}
-  .chk-group{grid-template-columns:1fr}
+  .frow,.frow3,.frow4,.sig-row{grid-template-columns:1fr}
+  .form-card{padding:1.25rem}
+  .chk-grid{grid-template-columns:repeat(2,1fr)}
+  .yn-row{flex-direction:column;gap:.5rem}
   .hire-inner{flex-direction:column;text-align:center}
   .foot-inner{grid-template-columns:1fr;gap:2rem}
   .foot-cols{grid-template-columns:repeat(2,1fr)}
@@ -109,10 +117,9 @@ textarea{resize:vertical;min-height:110px}
 </style>
 </head>
 <body>
-
 <header class="navbar" id="navbar">
   <div class="nav-inner">
-    <a href="../index.html" class="brand"><span class="brand-ico">🌐</span><div><span class="brand-name">Global Home Health Care</span><span class="brand-sub">LLC · Columbus, Ohio</span></div></a>
+    <a href="../index.html" class="brand"><span class="brand-ico">&#127760;</span><div><span class="brand-name">Global Home Health Care</span><span class="brand-sub">LLC &middot; Columbus, Ohio</span></div></a>
     <nav class="nav-links" id="navLinks">
       <a href="../index.html" class="nav-link">Home</a>
       <a href="services.html" class="nav-link">Services</a>
@@ -129,122 +136,215 @@ textarea{resize:vertical;min-height:110px}
 <section class="page-hero">
   <div class="sec-tag">Careers</div>
   <h1>Join Our <span class="grad-text">Care Team</span></h1>
-  <p>Start a fulfilling career making a real difference every day. We invest in our people — because great care starts with great caregivers.</p>
+  <p>Start a fulfilling career making a real difference every day. We invest in our people &mdash; because great care starts with great caregivers.</p>
 </section>
 
-<!-- OPENINGS -->
 <section class="sec sec-alt">
-  <div class="container">
-    <div class="sec-hdr">
-      <div class="sec-tag">Now Hiring</div>
-      <h2 class="sec-title">Current <em>Openings</em></h2>
-    </div>
+  <div class="container-wide">
+    <div class="sec-hdr"><div class="sec-tag">Now Hiring</div><h2 class="sec-title">Current <em>Openings</em></h2></div>
     <div class="pos-grid" id="posGrid">
-      <div class="pos-card" data-pos="LPN (Licensed Practical Nurse)"><div class="pos-ico">🩺</div><div class="pos-title">LPN</div><div class="pos-pay">$30 – $35 / hr</div></div>
-      <div class="pos-card" data-pos="Home Health Aide"><div class="pos-ico">🤲</div><div class="pos-title">Home Health Aide</div><div class="pos-pay">$15 – $20 / hr</div></div>
-      <div class="pos-card" data-pos="Direct Support Professional (DSP)"><div class="pos-ico">💛</div><div class="pos-title">DSP</div><div class="pos-pay">$18 – $22 / hr</div></div>
-      <div class="pos-card" data-pos="Registered Nurse (RN)"><div class="pos-ico">⚕️</div><div class="pos-title">Registered Nurse</div><div class="pos-pay">Competitive</div></div>
-      <div class="pos-card" data-pos="Physical Therapist"><div class="pos-ico">🏃</div><div class="pos-title">Physical Therapist</div><div class="pos-pay">Competitive</div></div>
-      <div class="pos-card" data-pos="Other / General Application"><div class="pos-ico">📋</div><div class="pos-title">Other / General</div><div class="pos-pay">All positions welcome</div></div>
+      <div class="pos-card" data-pos="LPN (Licensed Practical Nurse)"><div class="pos-ico">&#129658;</div><div class="pos-title">LPN</div><div class="pos-pay">$30 &ndash; $35 / hr</div></div>
+      <div class="pos-card" data-pos="Home Health Aide (HHA)"><div class="pos-ico">&#129330;</div><div class="pos-title">Home Health Aide</div><div class="pos-pay">$15 &ndash; $20 / hr</div></div>
+      <div class="pos-card" data-pos="Direct Support Professional (DSP)"><div class="pos-ico">&#128155;</div><div class="pos-title">DSP</div><div class="pos-pay">$18 &ndash; $22 / hr</div></div>
+      <div class="pos-card" data-pos="Registered Nurse (RN)"><div class="pos-ico">&#9877;&#65039;</div><div class="pos-title">Registered Nurse</div><div class="pos-pay">Competitive</div></div>
+      <div class="pos-card" data-pos="Physical Therapist"><div class="pos-ico">&#127939;</div><div class="pos-title">Physical Therapist</div><div class="pos-pay">Competitive</div></div>
+      <div class="pos-card" data-pos="Other / General Application"><div class="pos-ico">&#128203;</div><div class="pos-title">Other / General</div><div class="pos-pay">All positions welcome</div></div>
     </div>
   </div>
 </section>
 
-<!-- APPLICATION FORM -->
 <section class="sec">
   <div class="container">
     <div class="form-card">
-      <div class="progress"><div class="pb done" id="s1"></div><div class="pb" id="s2"></div><div class="pb" id="s3"></div></div>
-      <div class="form-title">Online Employment Application</div>
-      <div class="form-sub">Complete all required fields marked with <span style="color:#e53e3e">*</span>. Your information is kept confidential and used solely for employment consideration.</div>
-      <form id="appForm">
-        <div class="fsec-title">1. Position Applied For</div>
-        <div class="fg"><label for="position">Position <span>*</span></label>
-        <select id="position" required><option value="">— Select a position —</option><option>LPN (Licensed Practical Nurse)</option><option>Home Health Aide</option><option>Direct Support Professional (DSP)</option><option>Registered Nurse (RN)</option><option>Physical Therapist</option><option>Other / General Application</option></select></div>
-        <div class="frow">
-          <div class="fg"><label for="availability">Availability <span>*</span></label><select id="availability" required><option value="">— Select —</option><option>Full-Time</option><option>Part-Time</option><option>Per Diem / As Needed</option></select></div>
-          <div class="fg"><label for="startDate">Earliest Start Date <span>*</span></label><input type="date" id="startDate" required/></div>
-        </div>
+      <div class="form-header">
+        <h2>Employment Application</h2>
+        <p>Global Home Health Care, LLC &nbsp;&middot;&nbsp; 1395 E. Dublin Granville Road, Suite 302, Columbus, OH 43229 &nbsp;&middot;&nbsp; (614) 495-8934</p>
+      </div>
+      <form id="appForm" novalidate>
 
-        <div class="fsec-title">2. Personal Information</div>
-        <div class="frow">
-          <div class="fg"><label for="firstName">First Name <span>*</span></label><input type="text" id="firstName" placeholder="First name" required/></div>
-          <div class="fg"><label for="lastName">Last Name <span>*</span></label><input type="text" id="lastName" placeholder="Last name" required/></div>
+        <div class="fsec">Personal Information</div>
+        <div class="frow3">
+          <div class="fg"><label>First Name <span class="req">*</span></label><input type="text" id="firstName" required/></div>
+          <div class="fg"><label>Middle Name</label><input type="text" id="midName"/></div>
+          <div class="fg"><label>Last Name <span class="req">*</span></label><input type="text" id="lastName" required/></div>
         </div>
         <div class="frow">
-          <div class="fg"><label for="email">Email <span>*</span></label><input type="email" id="email" placeholder="you@email.com" required/></div>
-          <div class="fg"><label for="phone">Phone <span>*</span></label><input type="tel" id="phone" placeholder="(614) 000-0000" required/></div>
+          <div class="fg"><label>Street Address <span class="req">*</span></label><input type="text" id="street" required/></div>
+          <div class="fg"><label>Apt / Suite</label><input type="text" id="apt"/></div>
+        </div>
+        <div class="frow3">
+          <div class="fg"><label>City <span class="req">*</span></label><input type="text" id="city" required/></div>
+          <div class="fg"><label>State <span class="req">*</span></label><input type="text" id="state" required maxlength="2" placeholder="OH"/></div>
+          <div class="fg"><label>ZIP Code <span class="req">*</span></label><input type="text" id="zip" required maxlength="10"/></div>
         </div>
         <div class="frow">
-          <div class="fg"><label for="address">Street Address <span>*</span></label><input type="text" id="address" placeholder="123 Main St" required/></div>
-          <div class="fg"><label for="city">City <span>*</span></label><input type="text" id="city" placeholder="Columbus" required/></div>
+          <div class="fg"><label>Email <span class="req">*</span></label><input type="email" id="email" required/></div>
+          <div class="fg"><label>Phone <span class="req">*</span></label><input type="tel" id="phone" required placeholder="(614) 000-0000"/></div>
         </div>
         <div class="frow">
-          <div class="fg"><label for="state">State <span>*</span></label><input type="text" id="state" placeholder="OH" maxlength="2" required/></div>
-          <div class="fg"><label for="zip">ZIP Code <span>*</span></label><input type="text" id="zip" placeholder="43229" maxlength="10" required/></div>
+          <div class="fg"><label>Social Security Number (SSN)</label><input type="text" id="ssn" placeholder="XXX-XX-XXXX" maxlength="11"/></div>
+          <div class="fg"><label>Date of Birth</label><input type="date" id="dob"/></div>
         </div>
-
-        <div class="fsec-title">3. Qualifications &amp; Experience</div>
-        <div class="frow">
-          <div class="fg"><label for="education">Highest Education <span>*</span></label><select id="education" required><option value="">— Select —</option><option>High School Diploma / GED</option><option>Some College</option><option>Associate's Degree</option><option>Bachelor's Degree</option><option>Master's Degree or Higher</option></select></div>
-          <div class="fg"><label for="experience">Years of Experience <span>*</span></label><select id="experience" required><option value="">— Select —</option><option>Less than 1 year</option><option>1 – 2 years</option><option>3 – 5 years</option><option>6 – 10 years</option><option>10+ years</option></select></div>
-        </div>
-        <div class="fg"><label for="license">License / Certification Number</label><input type="text" id="license" placeholder="e.g. LPN-OH-XXXXXXXX"/></div>
-        <div class="fg"><label>Certifications / Skills</label>
-          <div class="chk-group">
-            <label class="chk-item"><input type="checkbox" name="certs" value="CPR/BLS"/> CPR / BLS Certified</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="First Aid"/> First Aid Certified</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="Wound Care"/> Wound Care</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="IV Therapy"/> IV Therapy</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="Medication Admin"/> Medication Administration</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="Dementia Care"/> Dementia Care</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="Pediatric Care"/> Pediatric Care</label>
-            <label class="chk-item"><input type="checkbox" name="certs" value="Bilingual"/> Bilingual / Multilingual</label>
+        <div class="fg"><label>Emergency Contact</label>
+          <div class="frow3">
+            <input type="text" id="ecName" placeholder="Full Name"/>
+            <input type="text" id="ecRel" placeholder="Relationship"/>
+            <input type="tel" id="ecPhone" placeholder="Phone Number"/>
           </div>
         </div>
-        <div class="fg"><label for="languages">Languages Spoken (other than English)</label><input type="text" id="languages" placeholder="e.g. Spanish, Somali, Arabic"/></div>
-
-        <div class="fsec-title">4. Most Recent Work History</div>
-        <div class="frow">
-          <div class="fg"><label for="employer1">Employer Name <span>*</span></label><input type="text" id="employer1" required/></div>
-          <div class="fg"><label for="jobTitle1">Job Title <span>*</span></label><input type="text" id="jobTitle1" required/></div>
-        </div>
-        <div class="frow">
-          <div class="fg"><label for="empFrom">From <span>*</span></label><input type="month" id="empFrom" required/></div>
-          <div class="fg"><label for="empTo">To (or Present)</label><input type="month" id="empTo"/></div>
-        </div>
-        <div class="fg"><label for="duties">Primary Duties</label><textarea id="duties" placeholder="Describe your main responsibilities..."></textarea></div>
-        <div class="fg"><label for="whyLeave">Reason for Leaving</label><input type="text" id="whyLeave" placeholder="e.g. Seeking growth opportunity"/></div>
-
-        <div class="fsec-title">5. Professional References</div>
-        <div class="frow">
-          <div class="fg"><label for="ref1Name">Reference 1 — Full Name <span>*</span></label><input type="text" id="ref1Name" required/></div>
-          <div class="fg"><label for="ref1Phone">Reference 1 — Phone <span>*</span></label><input type="tel" id="ref1Phone" required/></div>
-        </div>
-        <div class="frow">
-          <div class="fg"><label for="ref1Rel">Relationship</label><input type="text" id="ref1Rel" placeholder="e.g. Supervisor"/></div>
-          <div class="fg"><label for="ref2Name">Reference 2 — Full Name</label><input type="text" id="ref2Name"/></div>
-        </div>
-        <div class="frow">
-          <div class="fg"><label for="ref2Phone">Reference 2 — Phone</label><input type="tel" id="ref2Phone"/></div>
-          <div class="fg"><label for="ref2Rel">Reference 2 — Relationship</label><input type="text" id="ref2Rel"/></div>
+        <div class="fg"><label>How were you referred to us?</label>
+          <div class="radio-row">
+            <label class="radio-item"><input type="radio" name="referral" value="Family/Friend"/> Family/Friend</label>
+            <label class="radio-item"><input type="radio" name="referral" value="Employee"/> Employee</label>
+            <label class="radio-item"><input type="radio" name="referral" value="Internet"/> Internet</label>
+            <label class="radio-item"><input type="radio" name="referral" value="Other"/> Other:</label>
+            <input type="text" id="referralOther" style="width:140px;padding:.35rem .6rem;font-size:.85rem"/>
+          </div>
         </div>
 
-        <div class="fsec-title">6. Additional Information</div>
-        <div class="fg"><label for="coverLetter">Cover Letter / Personal Statement</label><textarea id="coverLetter" rows="5" placeholder="Tell us why you'd like to join our team..."></textarea></div>
+        <div class="fsec">Job Interests</div>
         <div class="frow">
-          <div class="fg"><label for="transport">Reliable Transportation? <span>*</span></label><select id="transport" required><option value="">— Select —</option><option>Yes</option><option>No</option></select></div>
-          <div class="fg"><label for="bgCheck">Pass a background check? <span>*</span></label><select id="bgCheck" required><option value="">— Select —</option><option>Yes</option><option>No</option></select></div>
+          <div class="fg"><label>Date Available for Work <span class="req">*</span></label><input type="date" id="availDate" required/></div>
+          <div class="fg"><label>Anticipated Wage ($/hr)</label><input type="number" id="wage" min="0" placeholder="e.g. 20"/></div>
+        </div>
+        <div class="fg"><label>Position Applied For <span class="req">*</span></label>
+          <select id="position" required>
+            <option value="">-- Select a position --</option>
+            <option>LPN (Licensed Practical Nurse)</option>
+            <option>Home Health Aide (HHA)</option>
+            <option>Direct Support Professional (DSP)</option>
+            <option>Registered Nurse (RN)</option>
+            <option>Physical Therapist</option>
+            <option>Occupational Therapist</option>
+            <option>Speech-Language Pathologist</option>
+            <option>Other / General Application</option>
+          </select>
+        </div>
+        <div class="fg"><label>Specialty Areas (check all that apply):</label>
+          <div class="chk-grid" style="margin-top:.4rem">
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Homecare"/> Homecare</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Medical/Surgical"/> Medical/Surgical</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="IV Therapy"/> IV Therapy</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Intermittent Care"/> Intermittent Care</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Private Duty"/> Private Duty</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Hospice"/> Hospice</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Rehabilitation"/> Rehabilitation</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Pediatrics/Maternal Child"/> Pediatrics/Maternal</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Supplemental Staffing"/> Supplemental Staffing</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Residential Care"/> Residential Care</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Nursing Home"/> Nursing Home</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Hospital"/> Hospital</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Geriatric"/> Geriatric</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Psychiatric"/> Psychiatric</label>
+            <label class="chk-item"><input type="checkbox" name="specialty" value="Homemaking"/> Homemaking</label>
+          </div>
+        </div>
+        <div class="frow3">
+          <div class="fg"><label>Work Status</label>
+            <div style="display:flex;flex-direction:column;gap:.5rem;margin-top:.4rem">
+              <label class="radio-item"><input type="radio" name="workStatus" value="Full-Time (32 hrs/week avg)"/> Full-Time (32 hrs/week avg)</label>
+              <label class="radio-item"><input type="radio" name="workStatus" value="Part-Time (under 32 hrs/week)"/> Part-Time (&lt;32 hrs/week)</label>
+            </div>
+          </div>
+          <div class="fg"><label>Shifts Available</label>
+            <div style="display:flex;flex-direction:column;gap:.45rem;margin-top:.4rem">
+              <label class="chk-item"><input type="checkbox" name="shifts" value="7am-3pm"/> 7am &ndash; 3pm</label>
+              <label class="chk-item"><input type="checkbox" name="shifts" value="3pm-11pm"/> 3pm &ndash; 11pm</label>
+              <label class="chk-item"><input type="checkbox" name="shifts" value="11pm-7am"/> 11pm &ndash; 7am</label>
+              <label class="chk-item"><input type="checkbox" name="shifts" value="Visits Only"/> Visits Only</label>
+            </div>
+          </div>
+          <div class="fg"><label>Days Available</label>
+            <div style="display:flex;flex-direction:column;gap:.45rem;margin-top:.4rem">
+              <label class="chk-item"><input type="checkbox" name="days" value="Monday"/> Monday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Tuesday"/> Tuesday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Wednesday"/> Wednesday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Thursday"/> Thursday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Friday"/> Friday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Saturday"/> Saturday</label>
+              <label class="chk-item"><input type="checkbox" name="days" value="Sunday"/> Sunday</label>
+            </div>
+          </div>
         </div>
 
-        <div class="fsec-title">7. Certification &amp; Signature</div>
-        <p style="font-size:.88rem;color:var(--ts);margin-bottom:1rem;">I certify that all information provided in this application is true and complete to the best of my knowledge.</p>
-        <div class="frow">
-          <div class="fg"><label for="sigName">Full Legal Name (Signature) <span>*</span></label><input type="text" id="sigName" placeholder="Type your full legal name" required/></div>
-          <div class="fg"><label for="sigDate">Date <span>*</span></label><input type="date" id="sigDate" required/></div>
+        <div class="fsec">Employment Eligibility</div>
+        <div style="display:flex;flex-direction:column;gap:.75rem">
+          <div class="yn-row"><span class="yn-q">Are you legally authorized to work in the U.S.? <span class="req">*</span></span><div class="yn-opts"><label class="radio-item"><input type="radio" name="authorized" value="Yes"/> Yes</label><label class="radio-item"><input type="radio" name="authorized" value="No"/> No</label></div></div>
+          <div class="yn-row"><span class="yn-q">Have you ever been employed by GHHC before?</span><div class="yn-opts"><label class="radio-item"><input type="radio" name="prevGhhc" value="Yes" id="prevGhhcYes"/> Yes</label><label class="radio-item"><input type="radio" name="prevGhhc" value="No"/> No</label></div></div>
+          <div id="prevDatesRow" style="display:none" class="fg"><label>If yes &mdash; Start and End Dates:</label><input type="text" id="prevDates" placeholder="e.g. Jan 2020 to Jun 2022"/></div>
+          <div class="yn-row"><span class="yn-q">Have you ever been convicted of a felony?</span><div class="yn-opts"><label class="radio-item"><input type="radio" name="felony" value="Yes" id="felonyYes"/> Yes</label><label class="radio-item"><input type="radio" name="felony" value="No"/> No</label></div></div>
+          <div id="felonyRow" style="display:none" class="fg"><label>If yes &mdash; Please explain:</label><textarea id="felonyExplain" rows="3"></textarea></div>
+          <div class="yn-row"><span class="yn-q">Can you pass a pre-employment drug test?</span><div class="yn-opts"><label class="radio-item"><input type="radio" name="drugTest" value="Yes"/> Yes</label><label class="radio-item"><input type="radio" name="drugTest" value="No"/> No</label></div></div>
         </div>
-        <button type="submit" class="btn-sub" id="submitBtn">✦ Submit Application &amp; Download PDF</button>
-        <div class="success-msg" id="successMsg">✅ Your application has been submitted and your PDF is downloading. We will review your application and contact you soon. Thank you for your interest in joining Global Home Health Care LLC!</div>
+
+        <div class="fsec">Work History &mdash; List Most Recent First</div>
+        <div class="emp-block">
+          <div class="emp-lbl">EMPLOYER 1 (Most Recent)</div>
+          <div class="frow"><div class="fg"><label>Company / Individual <span class="req">*</span></label><input type="text" id="emp1name" required/></div><div class="fg"><label>Phone</label><input type="tel" id="emp1phone" placeholder="(614) 000-0000"/></div></div>
+          <div class="frow3"><div class="fg"><label>Street Address</label><input type="text" id="emp1street"/></div><div class="fg"><label>City</label><input type="text" id="emp1city"/></div><div class="fg"><label>State / ZIP</label><input type="text" id="emp1zip"/></div></div>
+          <div class="frow4"><div class="fg"><label>Job Title <span class="req">*</span></label><input type="text" id="emp1title" required/></div><div class="fg"><label>Wage ($)</label><input type="text" id="emp1wage" placeholder="$/hr or salary"/></div><div class="fg"><label>From</label><input type="month" id="emp1from"/></div><div class="fg"><label>To</label><input type="month" id="emp1to"/></div></div>
+          <div class="fg"><label>Primary Responsibilities</label><textarea id="emp1duties" rows="2"></textarea></div>
+          <div class="frow"><div class="fg"><label>Supervisor Name</label><input type="text" id="emp1sup"/></div><div class="fg"><label>Supervisor Phone</label><input type="tel" id="emp1supphone"/></div></div>
+          <div class="fg"><label>Reason for Leaving</label><input type="text" id="emp1leave"/></div>
+        </div>
+        <div class="emp-block">
+          <div class="emp-lbl">EMPLOYER 2</div>
+          <div class="frow"><div class="fg"><label>Company / Individual</label><input type="text" id="emp2name" /></div><div class="fg"><label>Phone</label><input type="tel" id="emp2phone" placeholder="(614) 000-0000"/></div></div>
+          <div class="frow3"><div class="fg"><label>Street Address</label><input type="text" id="emp2street"/></div><div class="fg"><label>City</label><input type="text" id="emp2city"/></div><div class="fg"><label>State / ZIP</label><input type="text" id="emp2zip"/></div></div>
+          <div class="frow4"><div class="fg"><label>Job Title</label><input type="text" id="emp2title" /></div><div class="fg"><label>Wage ($)</label><input type="text" id="emp2wage" placeholder="$/hr or salary"/></div><div class="fg"><label>From</label><input type="month" id="emp2from"/></div><div class="fg"><label>To</label><input type="month" id="emp2to"/></div></div>
+          <div class="fg"><label>Primary Responsibilities</label><textarea id="emp2duties" rows="2"></textarea></div>
+          <div class="frow"><div class="fg"><label>Supervisor Name</label><input type="text" id="emp2sup"/></div><div class="fg"><label>Supervisor Phone</label><input type="tel" id="emp2supphone"/></div></div>
+          <div class="fg"><label>Reason for Leaving</label><input type="text" id="emp2leave"/></div>
+        </div>
+        <div class="emp-block">
+          <div class="emp-lbl">EMPLOYER 3</div>
+          <div class="frow"><div class="fg"><label>Company / Individual</label><input type="text" id="emp3name" /></div><div class="fg"><label>Phone</label><input type="tel" id="emp3phone" placeholder="(614) 000-0000"/></div></div>
+          <div class="frow3"><div class="fg"><label>Street Address</label><input type="text" id="emp3street"/></div><div class="fg"><label>City</label><input type="text" id="emp3city"/></div><div class="fg"><label>State / ZIP</label><input type="text" id="emp3zip"/></div></div>
+          <div class="frow4"><div class="fg"><label>Job Title</label><input type="text" id="emp3title" /></div><div class="fg"><label>Wage ($)</label><input type="text" id="emp3wage" placeholder="$/hr or salary"/></div><div class="fg"><label>From</label><input type="month" id="emp3from"/></div><div class="fg"><label>To</label><input type="month" id="emp3to"/></div></div>
+          <div class="fg"><label>Primary Responsibilities</label><textarea id="emp3duties" rows="2"></textarea></div>
+          <div class="frow"><div class="fg"><label>Supervisor Name</label><input type="text" id="emp3sup"/></div><div class="fg"><label>Supervisor Phone</label><input type="tel" id="emp3supphone"/></div></div>
+          <div class="fg"><label>Reason for Leaving</label><input type="text" id="emp3leave"/></div>
+        </div>
+
+        <div class="fsec">Education</div>
+        <div class="frow"><div class="fg"><label>High School Name</label><input type="text" id="hsName"/></div><div class="fg"><label>City / State</label><input type="text" id="hsCity"/></div></div>
+        <div class="fg"><label>Year Graduated</label><input type="text" id="hsYear" style="max-width:180px" placeholder="e.g. 2010"/></div>
+        <div class="frow"><div class="fg"><label>College / University</label><input type="text" id="colName"/></div><div class="fg"><label>City / State</label><input type="text" id="colCity"/></div></div>
+        <div class="frow"><div class="fg"><label>Year Graduated</label><input type="text" id="colYear"/></div><div class="fg"><label>Degree</label><input type="text" id="colDegree" placeholder="e.g. Associate's in Nursing"/></div></div>
+
+        <div class="fsec">Licenses &amp; Certifications</div>
+        <div class="tbl-wrap">
+          <table class="cert-tbl">
+            <thead><tr><th>#</th><th>License or Certification</th><th>ID Number</th><th>Expiration Date</th><th>State</th></tr></thead>
+            <tbody>
+              <tr><td style="text-align:center;font-weight:700">1</td><td><input type="text" id="lic1name" placeholder="e.g. LPN, CNA, CPR"/></td><td><input type="text" id="lic1id" placeholder="ID #"/></td><td><input type="date" id="lic1exp"/></td><td><input type="text" id="lic1state" maxlength="2" placeholder="OH"/></td></tr>
+              <tr><td style="text-align:center;font-weight:700">2</td><td><input type="text" id="lic2name"/></td><td><input type="text" id="lic2id"/></td><td><input type="date" id="lic2exp"/></td><td><input type="text" id="lic2state" maxlength="2"/></td></tr>
+              <tr><td style="text-align:center;font-weight:700">3</td><td><input type="text" id="lic3name"/></td><td><input type="text" id="lic3id"/></td><td><input type="date" id="lic3exp"/></td><td><input type="text" id="lic3state" maxlength="2"/></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="fsec">Policy Acknowledgments</div>
+        <div class="policy-box"><h4>Application Acknowledgment</h4>I certify that all answers are true, accurate, and complete. I understand false information may result in termination. I authorize Global Home Health Care LLC to verify all information and conduct a background investigation. I release GHHC from any liability from such investigation. I understand that if employed, I am an employee at will. I am willing to submit to a physical examination and drug screening.</div>
+        <div class="policy-box"><h4>Drug-Free Workplace</h4>I will abide by the Drug-Free Workplace program as a condition of employment and will notify the employer of any drug-related criminal conviction within 5 days of such conviction.</div>
+        <div class="policy-box"><h4>Abuse Policy</h4>I understand that mistreatment in the form of verbal or physical abuse of any patient is not tolerated and is grounds for immediate termination with notification to local authorities.</div>
+        <div class="policy-box"><h4>Confidentiality &amp; HIPAA</h4>I will maintain the confidentiality of all patient information in compliance with HIPAA and applicable law. This obligation continues after my employment ends.</div>
+        <div class="policy-box"><h4>Incident Reporting</h4>I must immediately report to Global Home Health Care LLC if a client is hospitalized, refuses services, has an address change, or any incident occurs &mdash; no matter how slight. Failure to report or falsifying timesheets is grounds for termination and legal action.</div>
+
+        <div class="fsec">Additional Questions &amp; Signature</div>
+        <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.5rem">
+          <div class="yn-row"><span class="yn-q">I understand I must report ALL accidents to my supervisor and to Global Home Health Care LLC, no matter how slight.</span><div class="yn-opts"><label class="radio-item"><input type="radio" name="accidents" value="Yes"/> I Agree</label></div></div>
+          <div class="yn-row"><span class="yn-q">I understand I must wear all required Personal Protection Equipment (PPE). Failure to do so may result in termination.</span><div class="yn-opts"><label class="radio-item"><input type="radio" name="ppe" value="Yes"/> I Agree</label></div></div>
+        </div>
+        <p style="font-size:.85rem;color:var(--ts);margin-bottom:1.25rem;line-height:1.7">I attest that the above referenced information is true and accurate to the best of my knowledge. I further give the agency permission to call any of my cited previous employers or reference candidates for information regarding my character, employee history, or work ethics.</p>
+        <div class="sig-row">
+          <div class="fg"><label>Print Full Name <span class="req">*</span></label><input type="text" id="printName" required placeholder="Print your full legal name"/></div>
+          <div class="fg"><label>Date <span class="req">*</span></label><input type="date" id="sigDate" required/></div>
+        </div>
+        <div class="fg"><label>Signature (type your full name as your legal signature) <span class="req">*</span></label><input type="text" id="sigName" required placeholder="Type full name as signature" style="font-style:italic;font-size:1rem;background:#fff"/></div>
+
+        <button type="submit" class="btn-sub" id="submitBtn">Submit Application &amp; Download PDF</button>
+        <div class="success-msg" id="successMsg">&#10003; Your application has been submitted and your PDF is downloading!<br/>We will review your application and contact you at the email provided. Thank you for your interest in joining Global Home Health Care LLC!</div>
       </form>
     </div>
   </div>
@@ -252,25 +352,25 @@ textarea{resize:vertical;min-height:110px}
 
 <section class="hire-ban">
   <div class="hire-bg"></div>
-  <div class="container hire-inner">
+  <div class="container-wide hire-inner">
     <div class="hire-left">
-      <h2>Questions About Careers?</h2>
-      <p>Call or email our HR team — we'd love to hear from you.</p>
-      <div class="job-tags"><span class="job-tag">📞 (614) 495-8934</span><span class="job-tag">✉️ info@global-hhc.com</span></div>
+      <h2>Questions? Contact HR</h2>
+      <p>We are happy to answer any questions about open positions at Global Home Health Care LLC.</p>
+      <div class="job-tags"><span class="job-tag">&#128222; (614) 495-8934</span><span class="job-tag">&#9993; Globalhomehealth23@gmail.com</span><span class="job-tag">Fax: (614) 495-8952</span></div>
     </div>
   </div>
 </section>
 
 <footer class="footer">
-  <div class="container foot-inner">
-    <div class="foot-brand"><span class="foot-ico">🌐</span><div><div class="foot-name">Global Home Health Care LLC</div><div class="foot-tag">Caring for your loved ones at home.</div></div></div>
+  <div class="container-wide foot-inner">
+    <div class="foot-brand"><span class="foot-ico">&#127760;</span><div><div class="foot-name">Global Home Health Care LLC</div><div class="foot-tag">Caring for your loved ones at home.</div></div></div>
     <div class="foot-cols">
       <div class="foot-col"><h4>Quick Links</h4><a href="../index.html">Home</a><a href="services.html">Services</a><a href="about.html">About Us</a><a href="careers.html">Careers</a><a href="referral.html">Referral</a></div>
-      <div class="foot-col"><h4>Contact</h4><a href="tel:6144958934">📞 (614) 495-8934</a><a href="mailto:info@global-hhc.com">✉️ info@global-hhc.com</a><p>📍 1395 E Granville Rd, Suite 302<br/>Columbus, OH 43229</p></div>
-      <div class="foot-col"><h4>Positions</h4><a href="careers.html">LPN</a><a href="careers.html">Home Health Aide</a><a href="careers.html">DSP</a><a href="careers.html">Registered Nurse</a></div>
+      <div class="foot-col"><h4>Contact</h4><a href="tel:6144958934">&#128222; (614) 495-8934</a><a href="mailto:Globalhomehealth23@gmail.com">&#9993; Globalhomehealth23@gmail.com</a><p>&#128205; 1395 E. Dublin Granville Rd<br/>Suite 302, Columbus, OH 43229</p></div>
+      <div class="foot-col"><h4>Positions</h4><a href="careers.html">LPN &ndash; $30&ndash;$35/hr</a><a href="careers.html">Home Health Aide &ndash; $15&ndash;$20/hr</a><a href="careers.html">DSP &ndash; $18&ndash;$22/hr</a><a href="careers.html">Registered Nurse</a></div>
     </div>
   </div>
-  <div class="foot-bot"><p>© 2025 Global Home Health Care LLC. All rights reserved.</p><a href="../privacy-policy.html">Privacy Policy</a></div>
+  <div class="foot-bot"><p>&copy; 2025 Global Home Health Care LLC. All rights reserved.</p><a href="../privacy-policy.html">Privacy Policy</a></div>
 </footer>
 
 <script>
@@ -278,57 +378,89 @@ var nb=document.getElementById('navbar');
 window.addEventListener('scroll',function(){nb.classList.toggle('scrolled',window.scrollY>30)});
 var hb=document.getElementById('hamburger'),nl=document.getElementById('navLinks');
 if(hb&&nl){hb.addEventListener('click',function(){nl.classList.toggle('open')});document.addEventListener('click',function(e){if(!hb.contains(e.target)&&!nl.contains(e.target))nl.classList.remove('open')})}
-
-document.querySelectorAll('.pos-card').forEach(function(c){
-  c.addEventListener('click',function(){
-    document.querySelectorAll('.pos-card').forEach(function(x){x.classList.remove('selected')});
-    c.classList.add('selected');
-    document.getElementById('position').value=c.dataset.pos;
-    document.getElementById('appForm').scrollIntoView({behavior:'smooth',block:'start'});
-  });
-});
-
+document.querySelectorAll('.pos-card').forEach(function(c){c.addEventListener('click',function(){document.querySelectorAll('.pos-card').forEach(function(x){x.classList.remove('selected')});c.classList.add('selected');document.getElementById('position').value=c.dataset.pos;document.getElementById('appForm').scrollIntoView({behavior:'smooth',block:'start'})})});
+document.getElementById('prevGhhcYes').addEventListener('change',function(){document.getElementById('prevDatesRow').style.display=this.checked?'block':'none'});
+document.getElementById('felonyYes').addEventListener('change',function(){document.getElementById('felonyRow').style.display=this.checked?'block':'none'});
 document.getElementById('sigDate').valueAsDate=new Date();
-
-document.getElementById('appForm').addEventListener('input',function(){
-  var f=['position','firstName','sigName'].filter(function(id){return document.getElementById(id).value.trim()}).length;
-  ['s1','s2','s3'].forEach(function(id,i){document.getElementById(id).classList.toggle('done',i<=f)});
-});
-
+function g(id){return(document.getElementById(id)||{value:''}).value.trim()||''}
+function cbs(name){return[].slice.call(document.querySelectorAll('input[name="'+name+'"]:checked')).map(function(c){return c.value}).join(', ')||'—'}
+function radv(name){var r=document.querySelector('input[name="'+name+'"]:checked');return r?r.value:'—'}
 document.getElementById('appForm').addEventListener('submit',function(e){
   e.preventDefault();
-  var g=function(id){return(document.getElementById(id)||{value:''}).value.trim()||''};
-  var certs=[].slice.call(document.querySelectorAll('input[name="certs"]:checked')).map(function(c){return c.value}).join(', ')||'None';
-  var jsPDF=window.jspdf.jsPDF;
-  var doc=new jsPDF({unit:'pt',format:'letter'});
-  var W=doc.internal.pageSize.getWidth(),M=50,y=0;
-  function cp(n){if(y+n>720){doc.addPage();y=50}}
-  function st(t){cp(30);doc.setFillColor(240,248,246);doc.rect(M-5,y-14,W-M*2+10,22,'F');doc.setFont('helvetica','bold');doc.setFontSize(11);doc.setTextColor(8,80,70);doc.text(t,M,y);y+=18;doc.setTextColor(30,30,30)}
-  function fld(l,v){if(!v)return;cp(22);doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(100,100,100);doc.text(l+':',M,y);doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(20,20,20);var lines=doc.splitTextToSize(v,W-M*2-140);doc.text(lines,M+145,y);y+=Math.max(18,lines.length*14)}
-  function tf(l1,v1,l2,v2){cp(22);var h=(W-M*2-20)/2;doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(100,100,100);doc.text(l1+':',M,y);doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(20,20,20);doc.text(String(v1||'').substring(0,35),M+100,y);if(l2){doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(100,100,100);doc.text(l2+':',M+h+10,y);doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(20,20,20);doc.text(String(v2||'').substring(0,35),M+h+110,y)}y+=20}
-  doc.setFillColor(11,122,110);doc.rect(0,0,W,90,'F');
-  doc.setFont('helvetica','bold');doc.setFontSize(20);doc.setTextColor(255,255,255);
-  doc.text('Global Home Health Care LLC',M,38);
-  doc.setFontSize(10);doc.setFont('helvetica','normal');
-  doc.text('1395 E Granville Rd, Suite 302 | Columbus, OH 43229 | (614) 495-8934',M,55);
-  doc.setFontSize(14);doc.setFont('helvetica','bold');doc.text('EMPLOYMENT APPLICATION',M,76);
-  doc.setFontSize(9);doc.setFont('helvetica','normal');doc.text('Date: '+new Date().toLocaleDateString(),W-M-90,76);
-  y=110;
-  st('1. POSITION');tf('Position',g('position'),'Availability',g('availability'));tf('Start Date',g('startDate'),'','');
-  st('2. PERSONAL INFORMATION');tf('First Name',g('firstName'),'Last Name',g('lastName'));tf('Email',g('email'),'Phone',g('phone'));fld('Address',g('address'));tf('City',g('city'),'State / ZIP',g('state')+' '+g('zip'));
-  st('3. QUALIFICATIONS');tf('Education',g('education'),'Experience',g('experience'));fld('License #',g('license'));fld('Certifications',certs);fld('Languages',g('languages'));
-  st('4. WORK HISTORY');tf('Employer',g('employer1'),'Job Title',g('jobTitle1'));tf('From',g('empFrom'),'To',g('empTo')||'Present');fld('Duties',g('duties'));fld('Reason for Leaving',g('whyLeave'));
-  st('5. REFERENCES');tf('Ref 1 Name',g('ref1Name'),'Ref 1 Phone',g('ref1Phone'));fld('Ref 1 Relationship',g('ref1Rel'));tf('Ref 2 Name',g('ref2Name'),'Ref 2 Phone',g('ref2Phone'));fld('Ref 2 Relationship',g('ref2Rel'));
-  st('6. ADDITIONAL');tf('Transportation',g('transport'),'Background Check',g('bgCheck'));fld('Cover Letter',g('coverLetter'));
-  st('7. SIGNATURE');tf('Signature',g('sigName'),'Date',g('sigDate'));
+  if(!g('firstName')||!g('lastName')||!g('email')||!g('phone')||!g('position')||!g('printName')||!g('sigName')||!g('sigDate')){alert('Please fill in all required fields marked with *');return}
+  var jsPDF=window.jspdf.jsPDF,doc=new jsPDF({unit:'pt',format:'letter'}),W=doc.internal.pageSize.getWidth(),M=45,y=0,RW=W-M*2;
+  function np(){doc.addPage();y=50}
+  function ck(n){if(y+(n||18)>720)np()}
+  function secbar(t){ck(26);doc.setFillColor(13,27,42);doc.rect(M-5,y-14,RW+10,20,'F');doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(255,255,255);doc.text(t,M,y-2);y+=12;doc.setTextColor(20,20,20)}
+  function row(l,v){if(!v||v=='—'||v=='None selected')return;ck(16);doc.setFont('helvetica','bold');doc.setFontSize(8);doc.setTextColor(90,90,90);doc.text(l+':',M,y);doc.setFont('helvetica','normal');doc.setFontSize(9);doc.setTextColor(20,20,20);var lines=doc.splitTextToSize(String(v),RW-120);doc.text(lines,M+115,y);y+=Math.max(14,lines.length*12)}
+  function trow(l1,v1,l2,v2){ck(14);var h=RW/2-5;doc.setFont('helvetica','bold');doc.setFontSize(8);doc.setTextColor(90,90,90);doc.text(l1+':',M,y);doc.setFont('helvetica','normal');doc.setFontSize(9);doc.setTextColor(20,20,20);if(v1&&v1!='—')doc.text(String(v1).substring(0,36),M+90,y);if(l2){doc.setFont('helvetica','bold');doc.setFontSize(8);doc.setTextColor(90,90,90);doc.text(l2+':',M+h+5,y);doc.setFont('helvetica','normal');doc.setFontSize(9);doc.setTextColor(20,20,20);if(v2&&v2!='—')doc.text(String(v2).substring(0,36),M+h+90,y)}y+=14}
+  function divl(){ck(6);doc.setDrawColor(220,220,220);doc.setLineWidth(.4);doc.line(M,y,W-M,y);y+=7}
+  function psec(t,txt){ck(60);doc.setFont('helvetica','bold');doc.setFontSize(8.5);doc.setTextColor(11,122,110);doc.text(t,M,y);y+=11;doc.setFont('helvetica','normal');doc.setFontSize(7.5);doc.setTextColor(70,70,70);doc.splitTextToSize(txt,RW).forEach(function(ln){ck(10);doc.text(ln,M,y);y+=9});y+=5}
+  // HEADER
+  doc.setFillColor(11,122,110);doc.rect(0,0,W,78,'F');
+  doc.setFont('helvetica','bold');doc.setFontSize(17);doc.setTextColor(255,255,255);doc.text('EMPLOYMENT APPLICATION',W/2,30,{align:'center'});
+  doc.setFontSize(9.5);doc.setFont('helvetica','normal');doc.text('Global Home Health Care, LLC  |  1395 E. Dublin Granville Rd, Suite 302, Columbus, OH 43229  |  614-495-8934',W/2,49,{align:'center'});
+  doc.text('Email: Globalhomehealth23@gmail.com  |  Fax: 614-495-8952',W/2,63,{align:'center'});
+  y=92;
+  secbar('PERSONAL INFORMATION');
+  trow('First Name',g('firstName'),'Middle Name',g('midName'));row('Last Name',g('lastName'));
+  row('Address',g('street')+(g('apt')?' Apt '+g('apt'):''));trow('City',g('city'),'State / ZIP',g('state')+' '+g('zip'));
+  trow('Email',g('email'),'Phone',g('phone'));trow('SSN',g('ssn')?'On file':'','Date of Birth',g('dob'));
+  trow('Emergency Contact',g('ecName'),'Relationship',g('ecRel'));row('Emergency Phone',g('ecPhone'));
+  row('Referred By',radv('referral')+(g('referralOther')?' - '+g('referralOther'):''));
+  y+=3;divl();
+  secbar('JOB INTERESTS');
+  trow('Position Applied For',g('position'),'Available From',g('availDate'));row('Anticipated Wage','$'+g('wage')+'/hr');
+  row('Specialty Areas',cbs('specialty'));trow('Work Status',radv('workStatus'),'Shifts',cbs('shifts'));row('Days Available',cbs('days'));
+  y+=3;divl();
+  secbar('EMPLOYMENT ELIGIBILITY');
+  row('Authorized to Work in U.S.',radv('authorized'));row('Previously at GHHC',radv('prevGhhc')+(g('prevDates')?' - '+g('prevDates'):''));
+  row('Felony Conviction',radv('felony')+(g('felonyExplain')?' - '+g('felonyExplain'):''));row('Can Pass Drug Test',radv('drugTest'));
+  y+=3;divl();
+  secbar('WORK HISTORY');
+  [{n:'1',l:'Employer 1'},{n:'2',l:'Employer 2'},{n:'3',l:'Employer 3'}].forEach(function(e){
+    if(!g('emp'+e.n+'name'))return;
+    ck(16);doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(11,122,110);doc.text(e.l,M,y);y+=12;
+    trow('Company',g('emp'+e.n+'name'),'Phone',g('emp'+e.n+'phone'));
+    row('Address',g('emp'+e.n+'street')+' '+g('emp'+e.n+'city')+' '+g('emp'+e.n+'zip'));
+    trow('Title',g('emp'+e.n+'title'),'Wage',g('emp'+e.n+'wage'));trow('From',g('emp'+e.n+'from'),'To',g('emp'+e.n+'to')||'Present');
+    row('Duties',g('emp'+e.n+'duties'));trow('Supervisor',g('emp'+e.n+'sup'),'Sup. Phone',g('emp'+e.n+'supphone'));
+    row('Reason for Leaving',g('emp'+e.n+'leave'));y+=4;
+  });
+  divl();
+  secbar('EDUCATION');
+  trow('High School',g('hsName'),'City/State',g('hsCity'));row('Year Graduated',g('hsYear'));
+  trow('College/University',g('colName'),'City/State',g('colCity'));trow('Year Graduated',g('colYear'),'Degree',g('colDegree'));
+  y+=3;divl();
+  secbar('LICENSES & CERTIFICATIONS');
+  [1,2,3].forEach(function(i){if(!g('lic'+i+'name'))return;trow('Certification',g('lic'+i+'name'),'ID Number',g('lic'+i+'id'));trow('Expiration',g('lic'+i+'exp'),'State',g('lic'+i+'state'));y+=3});
+  divl();
+  secbar('POLICY ACKNOWLEDGMENTS');
+  psec('Application Acknowledgment:','I certify all answers are true and accurate. False information may result in termination. I authorize GHHC to verify all information and conduct a background investigation. Employment is at-will.');
+  psec('Drug-Free Workplace:','I will abide by the Drug-Free Workplace program as a condition of employment and will notify the employer of any drug-related criminal conviction within 5 days.');
+  psec('Abuse Policy:','Verbal or physical abuse of any patient will result in immediate termination. Local authorities will be notified and criminal charges may be filed.');
+  psec('Confidentiality & HIPAA:','I will maintain confidentiality of all patient information per HIPAA. This obligation continues after my employment ends.');
+  psec('Incident Reporting:','I must immediately report any hospitalization, refusal of services, address change, or any incident. Falsifying timesheets is grounds for termination and legal action.');
+  divl();
+  secbar('SIGNATURE & CERTIFICATIONS');
+  row('Accident Reporting Agreement',radv('accidents')=='Yes'?'Agreed — Will report all accidents immediately':'');
+  row('PPE Agreement',radv('ppe')=='Yes'?'Agreed — Will wear all required PPE':'');
+  y+=10;ck(50);
+  doc.setFont('helvetica','bold');doc.setFontSize(8.5);doc.setTextColor(90,90,90);doc.text('Print Name:',M,y);
+  doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(20,20,20);doc.text(g('printName'),M+75,y);
+  doc.setFont('helvetica','bold');doc.setFontSize(8.5);doc.setTextColor(90,90,90);doc.text('Date:',W-M-110,y);
+  doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(20,20,20);doc.text(g('sigDate'),W-M-75,y);
+  y+=22;
+  doc.setFont('helvetica','bold');doc.setFontSize(8.5);doc.setTextColor(90,90,90);doc.text('Signature:',M,y);
+  doc.setFont('helvetica','italic');doc.setFontSize(13);doc.setTextColor(11,122,110);doc.text(g('sigName'),M+68,y);
+  y+=22;doc.setFont('helvetica','normal');doc.setFontSize(8);doc.setTextColor(130,130,130);
+  doc.text('H/R Coordinator: _________________________   Hire Date: _________________   Employee Name: ____________________________',M,y);
   var tp=doc.internal.getNumberOfPages();
-  for(var i=1;i<=tp;i++){doc.setPage(i);doc.setFont('helvetica','normal');doc.setFontSize(8);doc.setTextColor(150,150,150);doc.text('Global Home Health Care LLC — Confidential Employment Application',M,750);doc.text('Page '+i+' of '+tp,W-M-50,750)}
-  var fn=(g('firstName')+'_'+g('lastName')).replace(/\s+/g,'_')||'Applicant';
-  doc.save('GlobalHHC_Application_'+fn+'.pdf');
+  for(var i=1;i<=tp;i++){doc.setPage(i);doc.setFont('helvetica','normal');doc.setFontSize(7.5);doc.setTextColor(160,160,160);doc.text('Global Home Health Care, LLC — Confidential Employment Application',M,748);doc.text('Page '+i+' of '+tp,W-M-42,748)}
+  doc.save('GHHC_Application_'+(g('firstName')+'_'+g('lastName')).replace(/\s+/g,'_')+'.pdf');
   document.getElementById('successMsg').style.display='block';
-  document.getElementById('submitBtn').textContent='✅ Application Submitted';
-  document.getElementById('submitBtn').disabled=true;
-  document.getElementById('submitBtn').style.background='var(--teal-d)';
+  document.getElementById('submitBtn').textContent='Application Submitted';
+  document.getElementById('submitBtn').disabled=true;document.getElementById('submitBtn').style.background='var(--teal-d)';
   document.getElementById('successMsg').scrollIntoView({behavior:'smooth',block:'nearest'});
 });
 </script>
